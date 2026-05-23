@@ -80,12 +80,15 @@ For each issue, propose a specific change:
 
 ```
 ## Issue: [description]
-Evidence: [N/M transcripts, with examples]
+Evidence: [N/M transcripts]
+Example: [participant] said "[quote]" in response to "[facilitator question]"
 
 Current prompt: "[exact text causing the problem]"
 Suggested change: "[new text]"
 Reason: [why this fixes it, based on the transcript evidence]
 ```
+
+Every Example must include both the literal participant quote AND the facilitator question that prompted it. No hand-waving with "participant X seemed disengaged at step 3" — quote the exchange.
 
 Changes should be either:
 - **Prompt rule additions** — new rules in the ### Rules section
@@ -108,7 +111,7 @@ Format the output as:
 
 ### Issues Found
 1. **[issue]** (N/M transcripts)
-   - Example: [participant name] at [point in conversation]
+   - Example: [participant] said "[quote]" in response to "[facilitator question]"
    - Suggested fix: [specific change]
 
 ### Prompt Changes
